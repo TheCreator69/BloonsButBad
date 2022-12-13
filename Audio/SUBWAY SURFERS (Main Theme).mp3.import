@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/SUBWAY SURFERS (Main Theme).mp3-3699bd80d93858a7cd7d2ff600a26102.mp3str"
+
+[deps]
+
+source_file="res://Audio/SUBWAY SURFERS (Main Theme).mp3"
+dest_files=[ "res://.import/SUBWAY SURFERS (Main Theme).mp3-3699bd80d93858a7cd7d2ff600a26102.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

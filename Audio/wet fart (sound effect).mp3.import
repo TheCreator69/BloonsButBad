@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/wet fart (sound effect).mp3-8d1654d2a9be6997a419b42a590b4c67.mp3str"
+
+[deps]
+
+source_file="res://Audio/wet fart (sound effect).mp3"
+dest_files=[ "res://.import/wet fart (sound effect).mp3-8d1654d2a9be6997a419b42a590b4c67.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

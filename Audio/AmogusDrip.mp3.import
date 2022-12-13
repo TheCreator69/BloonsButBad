@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/AmogusDrip.mp3-6077d41a659bb914c8e135f5666e77f4.mp3str"
+
+[deps]
+
+source_file="res://Audio/AmogusDrip.mp3"
+dest_files=[ "res://.import/AmogusDrip.mp3-6077d41a659bb914c8e135f5666e77f4.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

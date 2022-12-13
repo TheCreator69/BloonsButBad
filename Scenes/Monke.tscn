@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scripts/Monke.gd" type="Script" id=1]
+[ext_resource path="res://Pics/Monke.png" type="Texture" id=2]
+[ext_resource path="res://Audio/wet fart (sound effect).mp3" type="AudioStream" id=3]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 271.03
+
+[node name="Monke" type="Node2D"]
+scale = Vector2( 0.5, 0.5 )
+script = ExtResource( 1 )
+
+[node name="Monke" type="Sprite" parent="."]
+position = Vector2( -1, -3 )
+texture = ExtResource( 2 )
+
+[node name="BloonTrigger" type="Area2D" parent="."]
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BloonTrigger"]
+shape = SubResource( 1 )
+
+[node name="FartPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = -15.0
+bus = "SFX"
+
+[connection signal="area_entered" from="BloonTrigger" to="." method="_on_BloonTrigger_area_entered"]

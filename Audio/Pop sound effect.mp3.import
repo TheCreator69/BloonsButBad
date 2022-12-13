@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Pop sound effect.mp3-e89616609690e74e69686e29cd28183f.mp3str"
+
+[deps]
+
+source_file="res://Audio/Pop sound effect.mp3"
+dest_files=[ "res://.import/Pop sound effect.mp3-e89616609690e74e69686e29cd28183f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
